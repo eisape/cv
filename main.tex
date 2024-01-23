@@ -1,0 +1,245 @@
+\documentclass[letterpaper, 11pt]{article}
+
+
+\usepackage{hyperref, enumitem, longtable, amsmath, array}
+
+\newcommand{\updateinfo}[1][\today]{\par\vfill\hfill{\scriptsize\color{gray}Updated #1}}
+
+\usepackage[left=0.7in, right=0.8in, bottom=.8in, top=0.8in, headsep=0in, footskip=.2in]{geometry}
+
+\renewcommand{\baselinestretch}{1.2}
+
+\usepackage[dvipsnames]{xcolor}
+\hypersetup{colorlinks=true, linkcolor=Black, urlcolor=Black}
+
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+
+\pagenumbering{gobble}
+
+\newcommand{\headingfont}{\Large\color{Black}}
+
+\newcolumntype{R}{>{\raggedleft}p{1in}}
+
+\newenvironment{SectionTable}[1]{
+	\renewcommand*{\arraystretch}{1.7}
+	\setlength{\tabcolsep}{10pt}
+	\begin{longtable}{Rp{5.2in}} & #1 \\}
+{\end{longtable}\vspace{-.3cm}}
+
+\newenvironment{SectionTableSingleSpace}[1]{
+	\renewcommand*{\arraystretch}{1.2}
+	\setlength{\tabcolsep}{10pt}
+	\begin{longtable}{Rp{5.2in}} & #1 \\[0.6em]}
+{\end{longtable}\vspace{-.3cm}}
+
+
+\newenvironment{SectionTableHalfSpace}[1]{
+	\renewcommand*{\arraystretch}{.9}
+	\setlength{\tabcolsep}{10pt}
+	\begin{longtable}{Rp{5.2in}} & #1 \\[0.3em]}
+{\end{longtable}\vspace{-.3cm}}
+
+
+\begin{document}
+
+\begin{SectionTable}{\Huge Tiwa Eisape} & 
+Psycholinguistics, Natural language processing, Machine learning \newline
+eisape@mit.edu $\;\boldsymbol{\cdot}\;$ \href{eisape.github.io}{eisape.github.io} 
+\end{SectionTable}
+
+\begin{SectionTable}{\headingfont \textbf{Education}}
+2019 -- & 
+Massachusetts Institute of Technology \newline
+Ph.D, Cognitive Science \newline
+Advisors: Roger Levy, Yoon Kim\newline
+Committee: Joshua Tenenbaum, Edward Gibson, Jacob Andreas\newline
+GPA: 5.0/5.0
+\\
+
+2015 -- 2019 & 
+Boston College \newline
+B.S, Computer Science \newline
+Advisors: Joshua Hartshorne, Stefano Anzellotti\newline
+Major GPA: 3.9/4.0
+\end{SectionTable}
+
+\begin{SectionTable}{\headingfont \textbf{Academic Postions}}
+2022 -- & 
+Student Representative to the Board, Cognitive Science Society
+\end{SectionTable}
+
+
+\begin{SectionTable}{\headingfont \textbf{Employment}}
+2023 & Google AI, Student Researcher\newline
+Supervisor: Tal Linzen, Fei Sha
+\\
+2019 & Vimeo Applied Machine Learning, Research Intern 
+\end{SectionTable}
+
+
+\begin{SectionTableSingleSpace}{\headingfont \textbf{Honors}}
+2021 & 
+Graduate Research Fellowship (National Science Foundation)
+\\
+2019 &
+GEM Full Fellowship (InterActiveCorp/GEM Consortium) \\
+
+2019 &
+Dean of Sciences Fellowship (MIT) \\
+
+2019 &
+Presidential Fellowship (MIT) \newline
+\textit{awarded \& declined} \\
+
+2019 &
+Matthew R. Copithorne Scholarship (Boston College) \\
+
+2016 &
+Ronald E. Mcnair Scholarship (The Federal TRIO Programs) \\
+
+2021 &
+Walle Nauta Teaching Award (MIT) \\
+
+2019 &
+Order of the Cross and Crown (Boston College) \\
+\\
+
+\end{SectionTableSingleSpace}
+
+\begin{SectionTableHalfSpace}{\headingfont \textbf{Talks}}
+
+   2023 & Stanford NLP Seminar, Stanford
+\\
+
+2021 & How Can Findings about the Brain Improve AI Systems workshop, ICLR
+ \\
+ 
+ 2021 & Wehbe Lab, Carnegie Mellon University
+ \\
+ 
+  2021 & EdinburghNLP, The University of Edinburgh
+ \\
+
+   2021 & Psycholinguistics Coffee, The University of Edinburgh
+\\
+
+
+2019 & Machine Learning Reading Group, Vimeo
+\\
+
+
+\end{SectionTableHalfSpace}
+
+\begin{SectionTable}{\headingfont \textbf{Publications}} 
+& \textbf{Conference Papers}\\
+& \textbf{Eisape, T.}, Gangireddy, V.\textsuperscript{$\wedge$}, Levy, R. \& Kim, Y. (2022). Probing for Incremental Parse States in Autoregressive Language Models. \textit{Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP)}.\\
+& Liu, Z., \textbf{Eisape, T.}, Prud'hommeaux, E., \& Hartshorne, J.  (2022). Data-driven Crosslinguistic Syntactic Transfer in Second Language Learning. In \textit{Proceedings of the 44th Annual Meeting of the Cognitive Science Society}.\\
+ & Tucker, M., \textbf{Eisape, T.}, Qian, P., Levy, R., \&  Shah, J. (2022). When Does Syntax Mediate Neural Language Model Performance? Evidence from Dropout Probes. In \textit{Proceedings of the 21st Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL)}.\\
+& Chen, R.\textsuperscript{$\wedge$}, Levy, R., \& \textbf{Eisape, T.} (2021). On Factors Influencing Typing Time: Insights from a Viral Online Typing Game. In \textit{Proceedings of the 43rd Annual Meeting of the Cognitive Science Society}.\\
+ & \textbf{Eisape, T.}, Zaslavsky, N., \& Levy, R. (2020). Cloze Distillation: Improving Neural Language Models with Human Next-Word Predictions. In \textit{Proceedings of the 24th Conference on Computational Natural Language Learning}.\\
+ & \textbf{Eisape, T.}, Levy, R., Tenenbaum, J., \& Zaslavsky, N. (2020). Toward human-like object naming in artificial neural systems. \textit{In The Bridging AI and Cognitive Science workshop at the 8th International Conference on Representation Learning}.\\
+
+ 
+ & \textbf{Abstracts \& Posters}\\
+& Chen, R.\textsuperscript{$\wedge$}, Levy, R., \& \textbf{Eisape, T.} (2021). The Effect of Context on Typing Time: Evidence from 100,000 TypeRacers. In \textit{Proceedings of the 34th Annual CUNY Conference on Human Sentence Processing}.\\
+  & \textbf{Eisape, T.}, Merrill, W., Dietz, S., \& Hartshorne, J. (2020). Grammatical Accents: Using Machine Learning to Quantify Language Transfer. In \textit{Proceedings of the 33rd Annual CUNY Conference on Human Sentence Processing}.\\
+ & \textbf{Eisape, T.}, Merrill, W., Dietz, S., \& Hartshorne, J. (2018). Grammatical Accents: Using Machine Learning to Quantify Language Transfer. In \textit{Proceedings of the 43rd Annual Meeting of the Cognitive Science Society}.\\
+
+ 
+ & \textbf{Preprints}\\
+ & \textbf{Eisape, T.}, Grasso, S., Kurt, L., Lim, C., \& Hartshorne, J. K. (2022). Replication of Conway and Christiansen (2005) Modality-Constrained Statistical Learning of Tactile, Visual, and Auditory Sequences.\\
+& Choong, H., \textbf{Eisape, T.}, ... \& Hartshorne, J. K. (2018). Fourth Replication of Saffran, Newport, \& Aslin (1996) Word segmentation: The role of distributional cues.\\
+
+ 
+ & \textit{\textsuperscript{$\wedge$} denotes undergraduate students mentored}
+ \end{SectionTable}
+
+\begin{SectionTableHalfSpace}{\headingfont \textbf{Teaching}}
+ & 
+\textbf{Graduate courses}
+\\
+
+(Spring) 2021 	 &
+ Teaching Assistant, Cognitive Science (MIT) 
+ \\
+(Fall) 2020  &	Teaching Assistant, Computational Cognitive Science (MIT)
+ \\
+ (Fall) 2018  &	Teaching Assistant, Computational Models of Cognition (Boston College)
+ \\
+\\
+
+ & 
+\textbf{Undergraduate courses}
+\\
+
+(Fall) 2018 	 &
+ Teaching Assistant, Data Mining (Boston College)
+ \\
+(Spring) 2019 &	Teaching Assistant, Algorithms (Boston College)
+ \\
+ (Spring) 2018 &	Teaching Assistant, Computer Science I (Boston College)
+ \\
+ (Spring) 2018 	 &
+ Teaching Assistant, Personal and Social Responsibility (Boston College)\\
+ (Fall) 2018 	 &
+ Teaching Assistant, Personal and Social Responsibility (Boston College)\\
+ (Fall) 2017 	 &
+ Teaching Assistant, Personal and Social Responsibility (Boston College)\\
+\end{SectionTableHalfSpace}
+
+
+
+\begin{SectionTableHalfSpace}{\headingfont \textbf{Organizing}}
+& \textbf{Conferences}\\
+2021 & Technical Session Chair, Conference of the Cognitive Science Society\\
+\\
+
+& \textbf{Speaker Series/Reading Groups}\\
+2022 & CompLang, MIT\\
+2019 & Machine learning reading group, Vimeo\\
+\end{SectionTableHalfSpace}
+
+\begin{SectionTableHalfSpace}{\headingfont \textbf{Research Assistants}}
+2022 - & Vineet Gangireddy, Applied Mathematics (Harvard)
+\\
+2022 - & Jesus Crespo, Computation and Cognition (MIT)
+\\
+2022 - & Nicole Wong, Computer Science (MIT)
+\\
+2022 & Heidi Lei, Mathematics (MIT)
+\\
+2021 & Vinh Le, Computation and Cognition (MIT)
+\\
+2020 & Robert Chen, Computer Science (MIT)
+\\
+2020 & Carl Joshua Quines, Mathematics (MIT)
+\\
+\end{SectionTableHalfSpace}
+
+\begin{SectionTableSingleSpace}{\headingfont \textbf{Professional Service}}
+
+2020 - & Diversity Ambassador, Office of Graduate Education, (MIT)\\
+2022 & MIT Summer Research Program Mentor, Office of Graduate Education, (MIT)\\
+2020 & Reviewer, DataKind/Data.org \newline
+\textit{Inclusive Growth \& Recovery Challenge} \\
+2017 & Tutor, Resilient Coders \\
+2018 & Preceptor, Options Through Education (Boston College) \\
+2017 & Council Member, PULSE Program for Service Learning (Boston College) \\
+ & \textbf{Reviewing (journals)}: Openmind ('21, '23)\\
+ & \textbf{Reviewing (conferences)}: Cogsci ('20, 21, '23) \\
+
+
+\end{SectionTableSingleSpace}
+
+\begin{SectionTableHalfSpace}{\headingfont \textbf{Misc.}}
+2016 & Captain, Boston College Varsity Men's Rowing
+\end{SectionTableHalfSpace}
+
+\updateinfo
+\end{document}
+
+
+
+
+
